@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="charity.css"> 
+<div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="donation.html">Donate</a>
+        <a href="contact.html">Contact</a>
+ </div>
+ <script src="myScript.js"></script>
+</head>
+<body>
+<div id="contact" class="contactphoto">
+        <h1 style="color: white;">Contact us: </h1>
+        <div class="contact">
+            <form action="sendMessage">
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="firstname" placeholder="First name"  size=“20” maxlength=“30” >
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Last name"  size=“20” maxlength=“30” >
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" cols="50" maxlength="600" rows="10" placeholder="Please type your message here:" style="height: 150px"></textarea>
+                <input type="submit" value="Send message">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
